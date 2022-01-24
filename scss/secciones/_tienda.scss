@@ -26,6 +26,10 @@
     display: none;
 }
 
+.filtro-mobile{
+    display: inline-block;
+}
+
 .filtro-categoria {
     &__lista {
         list-style-type: none;

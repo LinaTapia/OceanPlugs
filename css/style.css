@@ -408,6 +408,9 @@ textarea.form-control {
 .filtro-tipo {
   display: none; }
 
+.filtro-mobile {
+  display: inline-block; }
+
 .filtro-categoria__lista {
   list-style-type: none; }
 
