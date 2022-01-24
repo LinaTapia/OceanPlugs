@@ -105,6 +105,11 @@
     position: absolute;
     bottom: 0; } }
 
+@media (min-width: 1920px) {
+  .footer-contacto {
+    position: absolute;
+    bottom: 0; } }
+
 /* CAROUSEL */
 .carousel__img {
   height: 100vh;
