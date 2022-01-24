@@ -1,0 +1,82 @@
+.nosotros-principal {
+    width: 100%;
+    background-image: url(../img/nosotros.jpg);
+    background-size: cover;
+    background-color: #2525254d;
+    background-blend-mode: soft-light;
+    background-position: center;
+    margin-top: 80px;
+
+    &__titulo {
+        &--bold {
+            font-weight: 700;
+            font-size: 38px;
+            margin-top: 10px;
+            color: $blanco;
+        }
+
+        &--light {
+            text-decoration: underline;
+            font-weight: 200;
+            color: $blanco;
+        }
+    }
+
+    &__descripcion {
+        &--bold {
+            color: $blanco;
+            text-align: justify;
+        }
+
+        &--light {
+            color: $blanco;
+            font-weight: 200;
+            margin-top: -10px;
+            text-align: justify;
+        }
+    }
+
+    &__btn {
+        background: $azul;
+        font-size: 20px;
+        color: $blanco;
+        margin-bottom: 30px;
+
+        &:hover {
+            background: $color-hover-btn;
+        }
+    }
+}
+
+.contenedor-redes {
+    margin-top: 10px;
+
+    &__text {
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    &__btn {
+        background: $azul;
+        padding: 0 0.4rem;
+        border-radius: 0.25rem;
+        margin: 10px;
+        color: $blanco;
+        font-size: 2.5rem;
+
+        &:hover {
+            background: $color-hover-btn;
+        }
+    }
+}
+
+.siguenos__img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .siguenos__row {
+        align-items: center;
+    }
+}

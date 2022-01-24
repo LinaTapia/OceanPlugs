@@ -1,0 +1,95 @@
+/* CONTACTANOS */
+.contacto-principal {
+    background-image: url(../img/contacto.png);
+    background-size: cover;
+    background-color: #2525254d;
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+    margin-top: 83px;
+
+    &__titulo {
+        font-size: 38px;
+        font-weight: 700;
+        color: $blanco;
+        margin-top: 10px;
+    }
+
+    &__descripcion {
+        color: white;
+        text-align: justify;
+    }
+
+    &__btn {
+        background: $azul;
+        border-radius: 0.25rem;
+        margin: 10px;
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        width: 60px;
+        color: $blanco;
+
+        &:hover {
+            color: $color-hover-texto;
+        }
+    }
+}
+
+.listas-desplegables,
+.formulario {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.formulario {
+    border-top: 1px solid $color-hover-btn;
+}
+
+.accordion-button:not(.collapsed) {
+    color: $blanco;
+    background-color: $azul;
+}
+
+textarea.form-control {
+    min-height: calc(13.5em + 0.75rem + 2px);
+    margin-top: 20px;
+}
+
+.form-floating {
+    &__btn {
+        background: $azul;
+        font-size: 20px;
+        color: $blanco;
+        margin-top: 10px;
+
+        &:hover {
+            background: $color-hover-btn;
+        }
+    }
+
+    &>label {
+        padding: 0.5rem 0.75rem;
+    }
+
+    &>.form-control,
+    &>.form-select {
+        height: calc(2.5rem + 2px);
+    }
+}
+
+/* MEDIASQUERYS */
+@media (min-width: 768px) {
+    .formulario {
+        border-left: 1px solid $color-hover-btn;
+        padding-left: 20px;
+        border-top: none;
+    }
+
+    .formulario,
+    .listas-desplegables {
+        margin-top: 20px;
+    }
+
+    textarea.form-control {
+        margin-top: auto
+    }
+}

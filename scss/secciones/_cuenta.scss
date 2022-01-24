@@ -1,0 +1,45 @@
+.container-cuenta {
+    margin-top: 100px;
+}
+
+.menu {
+    margin: 20px 0;
+}
+
+.list-group-flush>.list-group-item i {
+    font-size: 1.2rem;
+}
+
+.list-group-item {
+    color: #ffffff;
+    &:hover{
+        font-weight: 700;
+        color: $color-hover-texto;
+
+    }
+}
+
+.bienvenida-menu {
+    margin-top: 50px;
+
+    &--bold{
+        font-weight: 700;
+    text-decoration: none;
+    color: black;
+    }
+
+    &--light{
+        font-size: 38px;
+    }
+
+    &__descripcion{
+        text-align: justify;
+    }
+}
+
+/* MEDIASQUERYS */
+@media (min-width: 768px) {
+    .bienvenida-menu {
+        margin-top: 0px;
+    }
+}

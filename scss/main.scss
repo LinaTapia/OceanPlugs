@@ -1,0 +1,15 @@
+@import './variables/colores';
+@import './variables/fuentes.scss';
+
+* {
+    font-family: $sans-serif;
+}
+
+
+@import './utilidades/header';
+@import './utilidades/footer';
+@import './secciones/index';
+@import './secciones/nosotros';
+@import './secciones/contacto';
+@import './secciones/cuenta';
+@import './secciones/tienda';

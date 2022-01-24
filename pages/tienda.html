@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/icon.ico">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Mi Estilo -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Ocean Plugs - Tienda</title>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header class="header fixed-top bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-xxl">
+                <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="Logo - Ocean Plugs"
+                        class="d-inline-block align-text-top img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavOcean"
+                    aria-controls="navbarNavOcean" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavOcean">
+                    <ul class="navbar-nav mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cuenta.html">Mi Cuenta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-item__icon" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasLogin" aria-controls="offcanvas"><i
+                                    class="fas fa-user-circle">
+                                </i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-item__icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+                                aria-controls="offcanvas"><i class="far fa-shopping-cart">
+                                </i><span class="nav-item__badge">0</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin Encabezado -->
+    <!-- Principal -->
+    <main>
+        <section class="container-xxl tienda">
+            <h2 class="tienda__titulo">RESIN PLUGS</h2>
+            <div class="row">
+                <div class="col-sn-12 col-md-2">
+                    <!-- Filtro Mobile-->
+                    <a href="#" class="btn tienda__filtro" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasTienda" aria-controls="offcanvas">Mostrar Filtros</a>
+                    <!-- Filtros para Desktop -->
+                    <div class="filtro-tipo">
+                        <div class="filtro-categoria">
+                            <h3 class="filtro-categoria__titulo">Categorías</h3>
+                            <ul class="filtro-categoria__lista">
+                                <li><input class="form-check-input" type="checkbox" id="checkPlug">
+                                    <label class="form-check-label" for="checkPlug">
+                                        Resin Plugs
+                                    </label></li>
+                                <li><input class="form-check-input" type="checkbox" id="checkPlug">
+                                    <label class="form-check-label" for="checkPlug">
+                                        Spiral Plugs
+                                    </label></li>
+                                <li><input class="form-check-input" type="checkbox" id="checkPlug">
+                                    <label class="form-check-label" for="checkPlug">
+                                        Wood Plugs
+                                    </label></li>
+                            </ul>
+                        </div>
+                        <div class="filtro-medida">
+                            <h3 class="filtro-medida__titulo">Medidas</h3>
+                            <ul class="filtro-categoria__lista">
+                                <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                                    <label class="form-check-label" for="checkMedida">
+                                        12MM
+                                    </label></li>
+                                <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                                    <label class="form-check-label" for="checkMedida">
+                                        14MM
+                                    </label></li>
+                                <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                                    <label class="form-check-label" for="checkMedida">
+                                        16MM
+                                    </label></li>
+                                <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                                    <label class="form-check-label" for="checkMedida">
+                                        18MM
+                                    </label></li>
+                                <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                                    <label class="form-check-label" for="checkMedida">
+                                        20MM
+                                    </label></li>
+                                <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                                    <label class="form-check-label" for="checkMedida">
+                                        22MM
+                                    </label></li>
+                                <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                                    <label class="form-check-label" for="checkMedida">
+                                        24MM
+                                    </label></li>
+                                <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                                    <label class="form-check-label" for="checkMedida">
+                                        26MM
+                                    </label></li>
+                                <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                                    <label class="form-check-label" for="checkMedida">
+                                        28MM
+                                    </label></li>
+                                <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                                    <label class="form-check-label" for="checkMedida">
+                                        30MM
+                                    </label></li>
+                            </ul>
+                            <button class="btn filtro__btn">Aplicar</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Productos -->
+                <div class="col-12 col-md-10 d-flex flex-wrap justify-content-around">
+                    <!-- Paginacion -->
+                    <div class="paginacion-tienda col-12">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="card text-center card-tienda">
+                        <img src="../img/tienda-1.png" class="card-img-top card-tienda__img" alt="prod-1">
+                        <div class="card-body">
+                            <h5 class="card-title card-body__titulo">Tapón Negro Traslúcido</h5>
+                            <p class="card-text card-body__precio">1.500 - 7.500</p>
+                            <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-tienda">
+                        <img src="../img/tienda-2.png" class="card-img-top card-tienda__img" alt="prod-2">
+                        <div class="card-body">
+                            <h5 class="card-title card-body__titulo">Tapón Turquesa Traslúcido</h5>
+                            <p class="card-text card-body__precio">1.500 - 7.500</p>
+                            <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-tienda">
+                        <img src="../img/tienda-3.png" class="card-img-top card-tienda__img" alt="prod-3">
+                        <div class="card-body">
+                            <h5 class="card-title card-body__titulo">Tapón Araña</h5>
+                            <p class="card-text card-body__precio">1.500 - 7.500</p>
+                            <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-tienda">
+                        <img src="../img/tienda-4.png" class="card-img-top card-tienda__img" alt="prod-3">
+                        <div class="card-body">
+                            <h5 class="card-title card-body__titulo">Tapón Humo Negro - Rojo</h5>
+                            <p class="card-text card-body__precio">1.500 - 7.500</p>
+                            <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-tienda">
+                        <img src="../img/tienda-5.png" class="card-img-top card-tienda__img" alt="prod-3">
+                        <div class="card-body">
+                            <h5 class="card-title card-body__titulo">Tapón Rosado</h5>
+                            <p class="card-text card-body__precio">1.500 - 7.500</p>
+                            <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-tienda">
+                        <img src="../img/tienda-6.png" class="card-img-top card-tienda__img" alt="prod-3">
+                        <div class="card-body">
+                            <h5 class="card-title card-body__titulo">Tapón Vino y Agua</h5>
+                            <p class="card-text card-body__precio">1.500 - 7.500</p>
+                            <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-tienda">
+                        <img src="../img/tienda-7.png" class="card-img-top card-tienda__img" alt="prod-3">
+                        <div class="card-body">
+                            <h5 class="card-title card-body__titulo">Tapón Humo Negro</h5>
+                            <p class="card-text card-body__precio">1.500 - 7.500</p>
+                            <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-tienda">
+                        <img src="../img/tienda-8.png" class="card-img-top card-tienda__img" alt="prod-3">
+                        <div class="card-body">
+                            <h5 class="card-title card-body__titulo">Tapón Océano</h5>
+                            <p class="card-text card-body__precio">1.500 - 7.500</p>
+                            <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-tienda">
+                        <img src="../img/tienda-9.png" class="card-img-top card-tienda__img" alt="prod-3">
+                        <div class="card-body">
+                            <h5 class="card-title card-body__titulo">Tapón Niebla Rosa</h5>
+                            <p class="card-text card-body__precio">1.500 - 7.500</p>
+                            <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-tienda">
+                        <img src="../img/tienda-10.png" class="card-img-top card-tienda__img" alt="prod-3">
+                        <div class="card-body">
+                            <h5 class="card-title card-body__titulo">Tapón Vino</h5>
+                            <p class="card-text card-body__precio">1.500 - 7.500</p>
+                            <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-tienda">
+                        <img src="../img/tienda-11.png" class="card-img-top card-tienda__img" alt="prod-3">
+                        <div class="card-body">
+                            <h5 class="card-title card-body__titulo">Tapón Humo Azul</h5>
+                            <p class="card-text card-body__precio">1.500 - 7.500</p>
+                            <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                        </div>
+                    </div>
+                    <div class="card text-center card-tienda">
+                        <img src="../img/tienda-12.png" class="card-img-top card-tienda__img" alt="prod-3">
+                        <div class="card-body">
+                            <h5 class="card-title card-body__titulo">Tapón Nebulosa Rosa</h5>
+                            <p class="card-text card-body__precio">1.500 - 7.500</p>
+                            <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                        </div>
+                    </div>
+                    <!-- Paginacion -->
+                    <div class="paginacion-tienda col-12">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Fin Principal -->
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <div class="container-xxl">
+            <div class="row justify-content-between align-items-center row-contenedor">
+                <a href="https://www.instagram.com/" class="col-8 footer__textInsta"><i class="fab fa-instagram"></i>
+                    OceanPlugs_</a>
+                <span class="col-4 d-flex justify-content-end footer__textCopyright">©Copyright</span>
+            </div>
+        </div>
+    </footer>
+    <!-- Fin Pie de Página-->
+    <!-- OffCanvas Login -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasLogin" aria-labelledby="offcanvasLogin">
+        <div class="offcanvas-header bg-dark text-light offcanvas__titulo">
+            <h5 id="offcanvasLogin text-center">Cuenta</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body text-center">
+            <div class="form-login">
+                <h5 class="form-login__titulo">Iniciar Sesión</h5>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
+                    <label for="floatingInput">Correo Electrónico</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
+                    <label for="floatingPassword">Contraseña</label>
+                </div>
+                <a href="#" type="button" class="btn offcanvas-body__btn">Iniciar Sesión</a>
+                <a class="form-login__restablecer">Restablecer Contraseña</a>
+            </div>
+            <hr class="offcanvas__sidebar">
+            <div class="div-register">
+                <span class="form-login__titulo">Eres Nuev@ en Ocean Plugs?</span>
+                <p>Crea una cuenta y haz más rápido tu proceso de compra, revisa tu historial y obtén descuentos.</p>
+                <a href="#" type="button" class="btn btn-secondary">Registrarse</a>
+            </div>
+        </div>
+    </div>
+    <!-- OffCanvas Carrito -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasCarro">
+        <div class="offcanvas-header bg-dark text-light offcanvas__titulo">
+            <h5 id="offcanvasCarro">Carro de Compras</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            Tu carro de compras está vacío.
+        </div>
+    </div>
+    <!-- OffCanvas Filtro -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasTienda" aria-labelledby="offcanvasFiltro">
+        <div class="offcanvas-header bg-dark text-light title-offcanvas">
+            <h5 id="offcanvasFiltro">Filtros</h5>
+            <button type="button" class="btn-close text-reset btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="filtro-tipo">
+                <div class="filtro-categoria">
+                    <h3 class="filtro-categoria__titulo">Categorías</h3>
+                    <ul class="filtro-categoria__lista">
+                        <li><input class="form-check-input" type="checkbox" id="checkPlug">
+                            <label class="form-check-label" for="checkPlug">
+                                Resin Plugs
+                            </label></li>
+                        <li><input class="form-check-input" type="checkbox" id="checkPlug">
+                            <label class="form-check-label" for="checkPlug">
+                                Spiral Plugs
+                            </label></li>
+                        <li><input class="form-check-input" type="checkbox" id="checkPlug">
+                            <label class="form-check-label" for="checkPlug">
+                                Wood Plugs
+                            </label></li>
+                    </ul>
+                </div>
+                <div class="filtro-medida">
+                    <h3 class="filtro-medida__titulo">Medidas</h3>
+                    <ul class="filtro-categoria__lista">
+                        <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                            <label class="form-check-label" for="checkMedida">
+                                12MM
+                            </label></li>
+                        <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                            <label class="form-check-label" for="checkMedida">
+                                14MM
+                            </label></li>
+                        <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                            <label class="form-check-label" for="checkMedida">
+                                16MM
+                            </label></li>
+                        <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                            <label class="form-check-label" for="checkMedida">
+                                18MM
+                            </label></li>
+                        <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                            <label class="form-check-label" for="checkMedida">
+                                20MM
+                            </label></li>
+                        <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                            <label class="form-check-label" for="checkMedida">
+                                22MM
+                            </label></li>
+                        <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                            <label class="form-check-label" for="checkMedida">
+                                24MM
+                            </label></li>
+                        <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                            <label class="form-check-label" for="checkMedida">
+                                26MM
+                            </label></li>
+                        <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                            <label class="form-check-label" for="checkMedida">
+                                28MM
+                            </label></li>
+                        <li><input class="form-check-input" type="checkbox" id="checkMedida">
+                            <label class="form-check-label" for="checkMedida">
+                                30MM
+                            </label></li>
+                    </ul>
+                    <button class="btn filtro__btn">Aplicar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Script Font Awesome -->
+    <script defer="" src="https://pro.fontawesome.com/releases/v5.10.1/js/all.js"
+        integrity="sha384-FW78RPcSpi13vjx77nPWQIrQbNSLkPBopb0qGzLCxD2x4Kr6FA8V05C/6cpgkKPL" crossorigin="anonymous">
+    </script>
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

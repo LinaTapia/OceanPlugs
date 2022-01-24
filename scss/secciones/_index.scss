@@ -1,0 +1,182 @@
+/* CAROUSEL */
+.carousel__img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.text-video {
+    position: absolute;
+    top: 45%;
+    color: $blanco;
+    background-color: #0000001a;
+
+    &--bold {
+        font-weight: 700;
+        font-size: 48px;
+    }
+
+    &--light {
+        font-size: 26px;
+        animation: flash 5s;
+    }
+
+    /* ANIMACION BREATH */
+    @keyframes flash {
+
+        0%,
+        50%,
+        100% {
+            opacity: 1;
+        }
+
+        25%,
+        75% {
+            opacity: 0;
+        }
+    }
+}
+
+// PRODUCTOS
+.productos {
+    &__titulo {
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 20px;
+        border-bottom: 3px solid $azul;
+        width: 70px;
+    }
+
+    a {
+        font-size: 20px;
+        color: $blanco;
+        text-decoration: none;
+        position: absolute;
+        font-weight: 700;
+        padding: 15px 20px;
+    }
+
+    span {
+        border-bottom: 3px solid rgb(255, 255, 255);
+    }
+
+    &__principal {
+        background-image: url(../img/prod-1.png);
+        background-size: cover;
+        background-blend-mode: soft-light;
+        background-color: $overlay;
+        height: 200px;
+    }
+
+    &__secundaria {
+        background-image: url(../img/prod-2.png);
+        background-size: cover;
+        background-blend-mode: soft-light;
+        background-color: $overlay;
+        height: 200px;
+        margin: 10px 0;
+    }
+
+    &__terciaria {
+        background-image: url(../img/prod-3.png);
+        background-size: cover;
+        background-blend-mode: soft-light;
+        background-color: $overlay;
+        height: 200px;
+    }
+}
+
+// DESTACADOS
+.destacados__titulo {
+    font-size: 24px;
+    border-bottom: 3px solid $azul;
+    width: 70px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.card-destacados {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+
+    &:nth-child(1) {
+        margin-top: 0;
+    }
+
+    &__img {
+        height: 250px;
+    }
+}
+
+.card-body {
+    &__btn {
+        background: $azul;
+        font-size: 20px;
+        color: $blanco;
+        width: 100%;
+
+        &:hover {
+            background: $color-hover-btn;
+        }
+    }
+
+    &__precio {
+        font-weight: 700;
+        font-size: 24px;
+    }
+}
+
+/* MEDIASQUERYS */
+@media (max-width: 479px) {
+    .text-video {
+        width: 90%;
+
+        &--bold {
+            font-size: 36px;
+        }
+
+        &--light {
+            font-size: 26px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .card-destacados {
+        width: 33%;
+        margin-top: 10px;
+
+        &:nth-child(1) {
+            margin-top: 10px;
+        }
+    }
+
+    .productos {
+        &__principal {
+            height: 400px;
+        }
+
+        &__secundaria {
+            margin-top: 0;
+        }
+
+        &__terciaria,
+        &__secundaria {
+            height: 195px;
+            width: 99%;
+            margin-left: 5px;
+        }
+    }
+
+    .text-video {
+        &--bold {
+            font-size: 58px;
+        }
+
+        &--light {
+            font-size: 36px;
+
+        }
+    }
+}
