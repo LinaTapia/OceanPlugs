@@ -12,11 +12,9 @@
 
     &--bold {
         font-weight: 700;
-        font-size: 48px;
     }
 
     &--light {
-        font-size: 26px;
         animation: flash 5s;
     }
 
@@ -104,7 +102,6 @@
 
     &__precio {
         font-weight: 700;
-        font-size: 24px;
     }
 }
 
