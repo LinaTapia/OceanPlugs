@@ -34,43 +34,6 @@
     }
 }
 
-/* OFFCANVAS */
-.offcanvas {
-    &__titulo h5 {
-        margin-bottom: 0;
-        text-transform: uppercase;
-    }
-
-    &__sidebar {
-        color: $azul;
-    }
-}
-
-.offcanvas-body {
-    &__btn {
-        background: $azul;
-        color: white;
-        margin-top: 20px;
-
-        &:hover {
-            background-color: $color-hover-btn;
-        }
-    }
-}
-
-.form-login {
-    &__titulo {
-        font-weight: 700;
-    }
-
-    &__restablecer {
-        font-size: .9rem;
-        margin-top: 10px;
-        display: block;
-        color: $gris;
-    }
-}
-
 /* MEDIASQUERYS */
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {

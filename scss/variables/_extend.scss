@@ -1,0 +1,36 @@
+//EXTEND
+%estiloBoton {
+    background: $azul;
+    color: $blanco;
+}
+
+%estiloCategoria {
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: $overlay;
+    height: 200px;
+}
+
+%estiloFooter {
+    position: absolute;
+    bottom: 0;
+}
+
+%estilosBg {
+    background-size: cover;
+    background-color: #2525254d;
+    background-blend-mode: soft-light;
+    background-position: center;
+}
+
+%estilosTextoBg {
+    font-size: 38px;
+    font-weight: 700;
+    color: $blanco;
+    margin-top: 10px;
+}
+
+%estilosDescripcion {
+    color: $blanco;
+    text-align: justify;
+}

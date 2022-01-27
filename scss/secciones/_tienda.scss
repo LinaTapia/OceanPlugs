@@ -43,8 +43,7 @@
 }
 
 .filtro__btn {
-    background: $azul;
-    color: $blanco;
+    @extend %estiloBoton;
     padding: 0.2rem 0.5rem;
 
     &:hover {

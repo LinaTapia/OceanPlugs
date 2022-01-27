@@ -1,32 +1,22 @@
 /* CONTACTANOS */
 .contacto-principal {
-    background-image: url(../img/contacto.png);
-    background-size: cover;
-    background-color: #2525254d;
-    background-blend-mode: soft-light;
-    background-attachment: fixed;
-    margin-top: 83px;
+    @include estilosBg (url(../img/contacto.png), 83px);
 
     &__titulo {
-        font-size: 38px;
-        font-weight: 700;
-        color: $blanco;
-        margin-top: 10px;
+        @extend %estilosTextoBg;
     }
 
     &__descripcion {
-        color: white;
-        text-align: justify;
+        @extend %estilosDescripcion;
     }
 
     &__btn {
-        background: $azul;
+        @extend %estiloBoton;
         border-radius: 0.25rem;
         margin: 10px;
         font-size: 2.5rem;
         margin-bottom: 30px;
         width: 60px;
-        color: $blanco;
 
         &:hover {
             color: $color-hover-texto;
@@ -56,9 +46,8 @@ textarea.form-control {
 
 .form-floating {
     &__btn {
-        background: $azul;
+        @extend %estiloBoton;
         font-size: 20px;
-        color: $blanco;
         margin-top: 10px;
 
         &:hover {

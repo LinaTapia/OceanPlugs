@@ -1,13 +1,19 @@
 @import './variables/colores';
-@import './variables/fuentes.scss';
+@import './variables/fuentes';
+@import './variables/extend';
+@import './variables/mixin';
 
 * {
     font-family: $sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
 @import './utilidades/header';
 @import './utilidades/footer';
+@import './utilidades/archivo';
 @import './secciones/index';
 @import './secciones/nosotros';
 @import './secciones/contacto';

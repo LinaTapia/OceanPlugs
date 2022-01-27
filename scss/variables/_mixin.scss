@@ -1,0 +1,16 @@
+@mixin estilosBg ($bg, $margin) {
+    background-image: $bg;
+    background-size: cover;
+    background-color: #2525254d;
+    background-blend-mode: soft-light;
+    background-position: center;
+    margin-top: $margin;
+}
+
+@mixin estilosCategorias ($bg) {
+    background-image: $bg;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: $overlay;
+    height: 200px;
+}

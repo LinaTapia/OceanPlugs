@@ -12,7 +12,8 @@
 
 .list-group-item {
     color: #ffffff;
-    &:hover{
+
+    &:hover {
         font-weight: 700;
         color: $color-hover-texto;
 
@@ -22,17 +23,17 @@
 .bienvenida-menu {
     margin-top: 50px;
 
-    &--bold{
+    &--bold {
         font-weight: 700;
-    text-decoration: none;
-    color: black;
+        text-decoration: none;
+        color: black;
     }
 
-    &--light{
+    &--light {
         font-size: 38px;
     }
 
-    &__descripcion{
+    &__descripcion {
         text-align: justify;
     }
 }

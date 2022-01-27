@@ -1,18 +1,10 @@
 .nosotros-principal {
     width: 100%;
-    background-image: url(../img/nosotros.jpg);
-    background-size: cover;
-    background-color: #2525254d;
-    background-blend-mode: soft-light;
-    background-position: center;
-    margin-top: 80px;
+    @include estilosBg (url(../img/nosotros.jpg), 80px);
 
     &__titulo {
         &--bold {
-            font-weight: 700;
-            font-size: 38px;
-            margin-top: 10px;
-            color: $blanco;
+            @extend %estilosTextoBg;
         }
 
         &--light {
@@ -24,8 +16,7 @@
 
     &__descripcion {
         &--bold {
-            color: $blanco;
-            text-align: justify;
+            @extend %estilosDescripcion;
         }
 
         &--light {
@@ -37,9 +28,8 @@
     }
 
     &__btn {
-        background: $azul;
+        @extend %estiloBoton;
         font-size: 20px;
-        color: $blanco;
         margin-bottom: 30px;
 
         &:hover {
@@ -57,11 +47,10 @@
     }
 
     &__btn {
-        background: $azul;
+        @extend %estiloBoton;
         padding: 0 0.4rem;
         border-radius: 0.25rem;
         margin: 10px;
-        color: $blanco;
         font-size: 2.5rem;
 
         &:hover {

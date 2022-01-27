@@ -60,27 +60,17 @@
     }
 
     &__principal {
-        background-image: url(../img/prod-1.png);
-        background-size: cover;
-        background-blend-mode: soft-light;
-        background-color: $overlay;
+        @include estilosCategorias (url(../img/prod-1.png));
         height: 200px;
     }
 
     &__secundaria {
-        background-image: url(../img/prod-2.png);
-        background-size: cover;
-        background-blend-mode: soft-light;
-        background-color: $overlay;
-        height: 200px;
+        @include estilosCategorias (url(../img/prod-2.png));
         margin: 10px 0;
     }
 
     &__terciaria {
-        background-image: url(../img/prod-3.png);
-        background-size: cover;
-        background-blend-mode: soft-light;
-        background-color: $overlay;
+        @include estilosCategorias (url(../img/prod-3.png));
         height: 200px;
     }
 }
@@ -111,9 +101,8 @@
 
 .card-body {
     &__btn {
-        background: $azul;
+        @extend %estiloBoton;
         font-size: 20px;
-        color: $blanco;
         width: 100%;
 
         &:hover {
@@ -177,6 +166,32 @@
         &--light {
             font-size: 36px;
 
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .productos {
+
+        &__principal,
+        &__secundaria,
+        &__terciaria {
+            transition: .2s;
+        }
+
+        &__principal:hover {
+            transition: .2s;
+            background-image: url(../img/prod-1-transition.jpg);
+        }
+
+        &__secundaria:hover {
+            transition: .2s;
+            background-image: url(../img/prod-2-transition.jpg);
+        }
+
+        &__terciaria:hover {
+            transition: .2s;
+            background-image: url(../img/prod-3-transition.jpg);
         }
     }
 }
