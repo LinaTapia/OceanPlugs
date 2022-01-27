@@ -39,11 +39,8 @@
 // PRODUCTOS
 .productos {
     &__titulo {
-        font-size: 24px;
-        font-weight: 700;
+        @extend %estilosTitulos;
         margin-top: 20px;
-        border-bottom: 3px solid $azul;
-        width: 70px;
     }
 
     a {
@@ -61,7 +58,6 @@
 
     &__principal {
         @include estilosCategorias (url(../img/prod-1.png));
-        height: 200px;
     }
 
     &__secundaria {
@@ -71,16 +67,12 @@
 
     &__terciaria {
         @include estilosCategorias (url(../img/prod-3.png));
-        height: 200px;
     }
 }
 
 // DESTACADOS
 .destacados__titulo {
-    font-size: 24px;
-    border-bottom: 3px solid $azul;
-    width: 70px;
-    font-weight: 700;
+    @extend %estilosTitulos;
     margin: 20px 0;
 }
 

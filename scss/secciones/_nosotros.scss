@@ -19,11 +19,10 @@
             @extend %estilosDescripcion;
         }
 
-        &--light {
-            color: $blanco;
+        &--light {  
+            @extend %estilosDescripcion;
             font-weight: 200;
             margin-top: -10px;
-            text-align: justify;
         }
     }
 

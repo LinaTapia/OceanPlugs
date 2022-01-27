@@ -10,9 +10,27 @@
   color: white;
   margin-top: 10px; }
 
-.nosotros-principal__descripcion--bold, .contacto-principal__descripcion {
+.nosotros-principal__descripcion--bold, .nosotros-principal__descripcion--light, .contacto-principal__descripcion {
   color: white;
   text-align: justify; }
+
+.productos__titulo, .destacados__titulo {
+  font-size: 24px;
+  font-weight: 700;
+  border-bottom: 3px solid #0077C0;
+  width: 70px; }
+
+.text-video--bold {
+  font-size: 48px; }
+
+.bienvenida-menu--light {
+  font-size: 38px; }
+
+.text-video--light {
+  font-size: 26px; }
+
+.card-body__precio {
+  font-size: 24px; }
 
 * {
   font-family: "Source Sans Pro", sans-serif;
@@ -155,11 +173,7 @@
     opacity: 0; } }
 
 .productos__titulo {
-  font-size: 24px;
-  font-weight: 700;
-  margin-top: 20px;
-  border-bottom: 3px solid #0077C0;
-  width: 70px; }
+  margin-top: 20px; }
 
 .productos a {
   font-size: 20px;
@@ -177,7 +191,6 @@
   background-size: cover;
   background-blend-mode: soft-light;
   background-color: #3f3f3e3d;
-  height: 200px;
   height: 200px; }
 
 .productos__secundaria {
@@ -193,14 +206,9 @@
   background-size: cover;
   background-blend-mode: soft-light;
   background-color: #3f3f3e3d;
-  height: 200px;
   height: 200px; }
 
 .destacados__titulo {
-  font-size: 24px;
-  border-bottom: 3px solid #0077C0;
-  width: 70px;
-  font-weight: 700;
   margin: 20px 0; }
 
 .card-destacados {
@@ -277,10 +285,8 @@
     font-weight: 200;
     color: white; }
   .nosotros-principal__descripcion--light {
-    color: white;
     font-weight: 200;
-    margin-top: -10px;
-    text-align: justify; }
+    margin-top: -10px; }
   .nosotros-principal__btn {
     font-size: 20px;
     margin-bottom: 30px; }
@@ -387,8 +393,6 @@ textarea.form-control {
     font-weight: 700;
     text-decoration: none;
     color: black; }
-  .bienvenida-menu--light {
-    font-size: 38px; }
   .bienvenida-menu__descripcion {
     text-align: justify; }
 

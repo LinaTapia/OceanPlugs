@@ -4,23 +4,9 @@
     color: $blanco;
 }
 
-%estiloCategoria {
-    background-size: cover;
-    background-blend-mode: soft-light;
-    background-color: $overlay;
-    height: 200px;
-}
-
 %estiloFooter {
     position: absolute;
     bottom: 0;
-}
-
-%estilosBg {
-    background-size: cover;
-    background-color: #2525254d;
-    background-blend-mode: soft-light;
-    background-position: center;
 }
 
 %estilosTextoBg {
@@ -33,4 +19,12 @@
 %estilosDescripcion {
     color: $blanco;
     text-align: justify;
+}
+
+
+%estilosTitulos {
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 3px solid $azul;
+    width: 70px;
 }
