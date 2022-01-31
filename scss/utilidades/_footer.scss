@@ -1,5 +1,5 @@
 .footer {
-    background-image: url(../img/footer.png);
+    background-image: url(../img/footer.jpg);
     background-attachment: fixed;
     background-size: contain;
     background-position: bottom;
@@ -21,26 +21,13 @@
 }
 
 .footer-cuenta {
-    position: absolute;
-    bottom: 0;
+    @include estiloFooter ();
 }
 
 /* MEDIASQUERYS */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer-nosotros {
-        position: absolute;
-        bottom: 0;
+        @include estiloFooter ();
     }
 }
 
-@media (min-width: 1920px) {
-    .footer-contacto{
-        position: absolute;
-        bottom: 0;
-    }
-
-    .footer-nosotros {
-        position: absolute;
-        bottom: 0;
-    }
-}

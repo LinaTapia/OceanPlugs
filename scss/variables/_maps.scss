@@ -1,11 +1,12 @@
-$font-sizes: (
-    text-video--bold: 48px,
+$font-sizes: (text-video--bold: 48px,
     bienvenida-menu--light: 38px,
     text-video--light: 26px,
     card-body__precio: 24px,
+    contenedores-redes__textSmall: 1.25rem,
 );
 
-@each $etiqueta, $tamanio in $font-sizes {
+@each $etiqueta,
+$tamanio in $font-sizes {
     .#{$etiqueta} {
         font-size: $tamanio;
     }

@@ -1,6 +1,6 @@
 /* CONTACTANOS */
 .contacto-principal {
-    @include estilosBg (url(../img/contacto.png), 83px);
+    @include estilosBg (url(../img/contacto.jpg), 83px);
 
     &__titulo {
         @extend %estilosTextoBg;

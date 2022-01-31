@@ -55,16 +55,16 @@
     }
 
     &__principal {
-        @include estilosCategorias (url(../img/prod-1.png));
+        @include estilosCategorias (url(../img/prod-1.jpg));
     }
 
     &__secundaria {
-        @include estilosCategorias (url(../img/prod-2.png));
+        @include estilosCategorias (url(../img/prod-2.jpg));
         margin: 10px 0;
     }
 
     &__terciaria {
-        @include estilosCategorias (url(../img/prod-3.png));
+        @include estilosCategorias (url(../img/prod-3.jpg));
     }
 }
 

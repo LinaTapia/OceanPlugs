@@ -12,5 +12,12 @@
     background-size: cover;
     background-blend-mode: soft-light;
     background-color: $overlay;
+    background-position: center;
     height: 200px;
+}
+
+
+@mixin estiloFooter () {
+    position: absolute;
+    bottom: 0;
 }
