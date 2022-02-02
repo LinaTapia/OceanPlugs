@@ -67,6 +67,8 @@
     position: relative;
     top: -1px;
     background: #000000; }
+  .navbar-dark .navbar-row {
+    width: 100%; }
 
 /* MEDIASQUERYS */
 @media (min-width: 992px) {

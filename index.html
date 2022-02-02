@@ -25,41 +25,47 @@
     <header class="fixed-top header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-xxl">
-                <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="Logo - Ocean Plugs"
-                        class="d-inline-block align-text-top img-fluid"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavOcean"
-                    aria-controls="navbarNavOcean" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavOcean">
-                    <ul class="navbar-nav mb-2 mb-lg-0 text-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/tienda.html">Tienda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/cuenta.html">Mi Cuenta</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-item__icon" data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasLogin" aria-controls="offcanvas"><i
-                                    class="fas fa-user-circle">
-                                </i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-item__icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
-                                aria-controls="offcanvas"><i class="far fa-shopping-cart">
-                                </i><span class="nav-item__badge">0</span></a>
-                        </li>
-                    </ul>
+                <div class="row navbar-row text-nowrap">
+                    <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-between align-items-center">
+                        <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="Logo - Ocean Plugs"
+                                class="d-inline-block align-text-top img-fluid"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavOcean" aria-controls="navbarNavOcean" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse col-md-0 col-lg-8 col-sm-0 flex-end" id="navbarNavOcean">
+                        <ul class="navbar-nav mb-2 mb-lg-0 text-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/tienda.html">Tienda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/cuenta.html">Mi Cuenta</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-item__icon" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasLogin" aria-controls="offcanvas"><i
+                                        class="fas fa-user-circle">
+                                    </i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-item__icon" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvas" aria-controls="offcanvas"><i
+                                        class="far fa-shopping-cart">
+                                    </i><span class="nav-item__badge">0</span></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -123,29 +129,34 @@
         <!-- Destacados -->
         <section class="container-xxl destacados">
             <h2 class="destacados__titulo">DESTACADOS</h2>
-            <div class="d-flex flex-wrap justify-content-around">
-                <div class="card text-center card-destacados">
-                    <img src="img/dest-1.jpg" class="card-img-top card-destacados__img" alt="Producto Destacado 1 - Tapón con Humo">
-                    <div class="card-body">
-                        <h5 class="card-title">Tapón con Humo</h5>
-                        <p class="card-body__text card-body__precio">1.500 - 7.500</p>
-                        <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap justify-content-around">
+                    <div class="card text-center card-destacados">
+                        <img src="img/dest-1.jpg" class="card-img-top card-destacados__img"
+                            alt="Producto Destacado 1 - Tapón con Humo">
+                        <div class="card-body">
+                            <h5 class="card-title">Tapón con Humo</h5>
+                            <p class="card-body__text card-body__precio">1.500 - 7.500</p>
+                            <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                        </div>
                     </div>
-                </div>
-                <div class="card text-center card-destacados">
-                    <img src="img/dest-2.jpg" class="card-img-top card-destacados__img" alt="Producto Destacado 2 - Tapón con Araña">
-                    <div class="card-body">
-                        <h5 class="card-title">Tapón con Araña</h5>
-                        <p class="card-body__text card-body__precio">1.500 - 7.500</p>
-                        <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                    <div class="card text-center card-destacados">
+                        <img src="img/dest-2.jpg" class="card-img-top card-destacados__img"
+                            alt="Producto Destacado 2 - Tapón con Araña">
+                        <div class="card-body">
+                            <h5 class="card-title">Tapón con Araña</h5>
+                            <p class="card-body__text card-body__precio">1.500 - 7.500</p>
+                            <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                        </div>
                     </div>
-                </div>
-                <div class="card text-center card-destacados">
-                    <img src="img/dest-3.jpg" class="card-img-top card-destacados__img" alt="Producto Destacado 3 - Tapon Turquesa">
-                    <div class="card-body">
-                        <h5 class="card-title">Tapón Turquesa</h5>
-                        <p class="card-body__text card-body__precio">1.500 - 7.500</p>
-                        <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                    <div class="card text-center card-destacados">
+                        <img src="img/dest-3.jpg" class="card-img-top card-destacados__img"
+                            alt="Producto Destacado 3 - Tapon Turquesa">
+                        <div class="card-body">
+                            <h5 class="card-title">Tapón Turquesa</h5>
+                            <p class="card-body__text card-body__precio">1.500 - 7.500</p>
+                            <a href="#" class="btn card-body__btn">Seleccionar Opciones</a>
+                        </div>
                     </div>
                 </div>
             </div>
